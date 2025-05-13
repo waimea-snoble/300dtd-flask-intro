@@ -1,4 +1,4 @@
-section#hero {
+#hero {
     min-height: 20rem;
     background-color: var(--pico-primary-background);
     display: flex;
@@ -7,8 +7,16 @@ section#hero {
     padding: 2rem;
 }
 
-section#hero h2 {
+#hero h2 {
     color: black;
     font-size: 5rem;
     text-align: center;
+}
+
+#rand-num {
+    font-size :10;
+    color: var(--pico-primary);
+    font-weight: bold;
+    text-align: center;
+
 }
